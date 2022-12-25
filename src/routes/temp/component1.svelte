@@ -27,5 +27,5 @@
 {/if}
 
 <p>
-	Your are currently {status};
+	Your are currently {status}.
 </p>

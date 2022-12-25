@@ -1,5 +1,6 @@
 <script>
-    import Random from './temp/random.svelte';
+    import Component1 from './temp/component1.svelte';
+    import Component2 from './temp/component2.svelte';
     let name = 'Safeer Ahmed';
 </script>
 
@@ -10,4 +11,5 @@
     Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read documentation about this website's framework.
 </p>
 
-<Random/>
+<Component1/>
+<Component2/>
