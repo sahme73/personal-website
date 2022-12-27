@@ -1,6 +1,6 @@
 # Personal Website
 
-My public website, powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit.
+My public website, powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion.
 
 ## Developing
 
