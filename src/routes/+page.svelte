@@ -1,6 +1,7 @@
 <script>
-    import Component1 from './temp/component1.svelte';
-    import Component2 from './temp/component2.svelte';
+    import Component1 from './components/component1.svelte';
+    import Component2 from './components/component2.svelte';
+    import FooterComponent from './components/footer_component.svelte';
     let name = 'Safeer Ahmed';
 </script>
 
@@ -13,3 +14,4 @@
 
 <Component1/>
 <Component2/>
+<FooterComponent/>
