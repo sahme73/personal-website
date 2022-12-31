@@ -1,3 +1,12 @@
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#personal-website">Summary</a></li>
+    <li><a href="#developing">Developing</a></li>
+    <li><a href="#building">Build & Publish</a></li>
+  </ol>
+</details>
+
 # Personal Website
 
 A public website to showcase personal information (resume, blog posts, etc.), powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion.
