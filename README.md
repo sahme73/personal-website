@@ -1,6 +1,15 @@
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#personal-website">Summary</a></li>
+    <li><a href="#developing">Developing</a></li>
+    <li><a href="#building">Build & Publish</a></li>
+  </ol>
+</details>
+
 # Personal Website
 
-My public website, powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion.
+A public website to showcase personal information (resume, blog posts, etc.), powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion.
 
 ## Developing
 
@@ -26,3 +35,4 @@ You can preview the production build with `npm run preview`.
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
 Note: the website is currently hosted using Netlify and is live [`here`](https://safeer.tech).
+Feel free to leave any feedback or feature requests.
