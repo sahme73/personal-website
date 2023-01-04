@@ -1,5 +1,5 @@
 <script>
-	import { saved_status } from '../store.js';
+	import { saved_status } from './store.js';
 	let user = { loggedIn: false };
 	let status = '';
 
