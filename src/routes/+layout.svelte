@@ -6,13 +6,19 @@
     let name = 'Safeer Ahmed';
 </script>
 
-<nav>
+<nav style="text-align:center">
     <a href="/">Home</a>
     <a href="/about">About</a>
 </nav>
 
-<h1>Welcome to {name}'s Incomplete Website!</h1>
+<h1 class="center">Welcome to {name}'s Incomplete Website!</h1>
 
 <slot></slot>
 
 <FooterComponent/>
+
+<style>
+    .center {
+        text-align: center;
+    }
+</style>

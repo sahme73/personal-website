@@ -21,17 +21,21 @@
 </script>
 
 {#if user.loggedIn}
-	<button on:click={toggle}>
-		Log out
-	</button>
+	<div style="text-align:center">
+		<button on:click={toggle}>
+			Log out
+		</button>
+	</div>
 {/if}
 
 {#if !user.loggedIn}
-	<button on:click={toggle}>
-		Log in
-	</button>
+	<div style="text-align:center">
+		<button on:click={toggle}>
+			Log in
+		</button>
+	</div>
 {/if}
 
-<p>
+<p style="text-align:center">
 	Your are currently {status}.
 </p>
