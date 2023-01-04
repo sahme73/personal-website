@@ -1,8 +1,11 @@
 <script>
+    export const prerender = false;
+
     import Component1 from './components/component1.svelte';
-    import Component2 from './components/component2.svelte';
+    import Component2 from './components/cat_image.svelte';
     import ResumeComponent from './components/resume_component.svelte';
     import FooterComponent from './components/footer_component.svelte';
+
     let name = 'Safeer Ahmed';
 </script>
 
