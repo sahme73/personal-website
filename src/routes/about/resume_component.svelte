@@ -13,15 +13,19 @@
 </script>
 
 {#if !user.downloaded}
-    <button class="button_unpressed" on:click={DownloadResume}>
-        <a href="./files/Safeer Ahmed 2023.pdf" download="SafeerAhmed2023">Download Resume</a>
-    </button>
+    <div style="text-align:center">
+        <button class="button_unpressed" on:click={DownloadResume}>
+            <a href="./files/Safeer Ahmed 2023.pdf" download="SafeerAhmed2023">Download Resume</a>
+        </button>
+    </div>
 {/if}
 
 {#if user.downloaded}
-    <button class="button_pressed">
-        Resume Downloaded
-    </button>
+    <div style="text-align:center">
+        <button class="button_pressed">
+            Resume Downloaded
+        </button>
+    </div>
 {/if}
 
 <style>
