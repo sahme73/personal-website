@@ -5,5 +5,7 @@
     import ResumeComponent from './resume_component.svelte';
 </script>
 
+<title>safeer.tech | about</title>
+
 <ResumeComponent/>
 <Cat/>
