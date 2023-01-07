@@ -11,6 +11,8 @@
 
 A public website to showcase personal information (resume, blog posts, etc.), powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Developing
 
 After cloning the project and installing dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
@@ -21,6 +23,8 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Building
 
@@ -36,3 +40,5 @@ You can preview the production build with `npm run preview`.
 
 Note: the website is currently hosted using Netlify and is live [`here`](https://safeer.tech).
 Feel free to leave any feedback or feature requests.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
