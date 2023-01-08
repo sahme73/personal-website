@@ -87,10 +87,10 @@
     @media screen and (max-width: 600px) {
         header {
             position: fixed;
-            width: 100vw;
-            height: 10vh;
-            bottom: 90vh;
-            right: 0vw;
+            width: 100%;
+            height: 10%;
+            bottom: 65%;
+            right: 0%;
             background-color: var(--theme-color);
             transition: background-color 0.3s;
             font-size: 2vmin;
@@ -104,7 +104,7 @@
     @media screen and (max-width: 600px) {
         nav {
             margin: 6px; /* fallback */
-            margin: 8vmin;
+            margin: 8%;
         }
     }
     p {
