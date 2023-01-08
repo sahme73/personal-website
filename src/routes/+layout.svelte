@@ -83,10 +83,12 @@
         transition: background-color 0.3s;
         font-size: 2vmin;
         color: var(--font-color);
+        overflow: visible;
     }
     nav {
         margin: 6px; /* fallback */
         margin: 0.8vmin;
+        overflow: visible;
     }
     p {
         margin: 6px; /* fallback */
@@ -99,25 +101,40 @@
         font-size: 2vmin;
     }
     @media screen and (max-width: 600px) {
+        header {
+            position: fixed;
+            width: 100%;
+            height: 8%;
+            bottom: 92%;
+            right: 0%;
+            background-color: var(--theme-color);
+            transition: background-color 0.3s;
+            font-size: 11pt;
+            color: var(--font-color);
+        }
         nav {
-            margin: 6px; /* fallback */
             margin-top: 16px;
         }
         .btn-scaling {
-            height: 3vmin;
-            width: 12vmin;
-            font-size: 2vmin;
+            height: 3%;
+            width: 12%;
+            font-size: 8pt;
+            overflow: visible;
+        }
+        .bottom {
+            position: fixed;
+            bottom: 0%;
+            right: 0%;
+            width: 100%;
+            height: 8%;
+            background-color: var(--theme-color);
+            transition: background-color 0.3s;
+            color: var(--font-color);
+        }
+        p {
+            margin-top: 16px;
+            font-size: 11pt;
         }
     }
-    @media screen and (max-width: 1200px) and (orientation: landscape) {
-        nav {
-            margin: 6px; /* fallback */
-            margin-top: 8px;
-        }
-        .btn-scaling {
-            height: 3vmin;
-            width: 12vmin;
-            font-size: 2vmin;
-        }
-    }
+    /* add the 5 device rule from w3 */
 </style>

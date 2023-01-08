@@ -57,12 +57,12 @@
     @media screen and (max-width: 600px) {
         .main-image {
             position: absolute;
-            bottom: 5%;
+            bottom: 8%;
             right: 0%;
 
             display: block;
             object-fit: cover;
-            height: 90%;
+            height: 84%;
             width: 100%;
         }
     }

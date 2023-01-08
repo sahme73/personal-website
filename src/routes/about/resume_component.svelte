@@ -44,7 +44,6 @@
         display: inline-block;
         font-size: 16px;
     }
-
     .button_pressed {
         background-color: #4CAF50; /* Green */
         border: none;
@@ -54,5 +53,11 @@
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+    }
+    @media screen and (max-width: 600px) {
+        .btn_pos {
+            position: relative;
+            top: 80px;
+        }
     }
 </style>
