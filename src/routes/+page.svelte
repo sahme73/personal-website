@@ -67,5 +67,15 @@
 
             z-index: 1;
         }
+        .main-header {
+            background-color: transparent;
+            position: fixed;
+            bottom: 15vh;
+            right: 15vw;
+            color: aliceblue;
+            font-size: 5vmin;
+
+            z-index: 100;
+        }
     }
 </style>
