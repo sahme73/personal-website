@@ -64,6 +64,8 @@
             object-fit: cover;
             height: 84%;
             width: 100%;
+
+            z-index: 1;
         }
     }
 </style>

@@ -97,7 +97,7 @@
     }
     .btn-scaling {
         height: 3vmin;
-        width: 8vmin;
+        width: 14vmin;
         font-size: 2vmin;
     }
     @media screen and (max-width: 600px) {
@@ -111,14 +111,14 @@
             transition: background-color 0.3s;
             font-size: 11pt;
             color: var(--font-color);
-            z-index: -1;
+            z-index: 1000;
         }
         nav {
             margin-top: 16px;
         }
         .btn-scaling {
             height: 3%;
-            width: 12%;
+            width: 14%;
             font-size: 8pt;
             overflow: visible;
         }
@@ -131,7 +131,7 @@
             background-color: var(--theme-color);
             transition: background-color 0.3s;
             color: var(--font-color);
-            z-index: -1;
+            z-index: 1000;
         }
         p {
             margin-top: 16px;

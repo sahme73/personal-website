@@ -58,6 +58,7 @@
         .btn_pos {
             position: relative;
             top: 80px;
+            z-index: 1;
         }
     }
 </style>
