@@ -84,9 +84,28 @@
         font-size: 2vmin;
         color: var(--font-color);
     }
+    @media screen and (max-width: 600px) {
+        header {
+            position: fixed;
+            width: 100vw;
+            height: 10vh;
+            bottom: 90vh;
+            right: 0vw;
+            background-color: var(--theme-color);
+            transition: background-color 0.3s;
+            font-size: 2vmin;
+            color: var(--font-color);
+        }
+    }
     nav {
         margin: 6px; /* fallback */
         margin: 0.8vmin;
+    }
+    @media screen and (max-width: 600px) {
+        nav {
+            margin: 6px; /* fallback */
+            margin: 8vmin;
+        }
     }
     p {
         margin: 6px; /* fallback */

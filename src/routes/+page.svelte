@@ -54,4 +54,16 @@
         height: 90vh;
         width: 100vw;
     }
+    @media screen and (max-width: 600px) {
+        .main-image {
+            position: fixed;
+            bottom: 5vh;
+            right: 0vw;
+
+            display: block;
+            object-fit: cover;
+            height: 85vh;
+            width: 100vw;
+        }
+    }
 </style>
