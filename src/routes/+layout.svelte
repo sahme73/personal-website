@@ -74,7 +74,7 @@
         color: var(--font-color);
     }
     header {
-        position: absolute;
+        position: fixed;
         width: 100vw;
         height: 5vh;
         bottom: 95vh;
