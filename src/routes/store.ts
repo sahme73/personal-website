@@ -5,3 +5,8 @@ import { writable } from "svelte/store";
 
 export const saved_status = writable(false);
 export const download_status = writable(false);
+
+// light/dark mode variables
+export const light_mode = writable(true);
+export const dark_mode = writable(false);
+export const background = writable('black');

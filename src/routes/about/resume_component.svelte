@@ -1,5 +1,5 @@
-<script>
-    import { download_status } from "../store.js";
+<script lang="ts">
+    import { download_status } from "../store";
     let user = { downloaded: false };
 
     download_status.subscribe(value => {
@@ -13,7 +13,7 @@
 </script>
 
 {#if !user.downloaded}
-    <div style="text-align:center">
+    <div class="center-text btn_pos">
         <button class="button_unpressed" on:click={DownloadResume}>
             <a href="./files/Safeer Ahmed 2023.pdf" download="SafeerAhmed2023">Download Resume</a>
         </button>
@@ -21,7 +21,7 @@
 {/if}
 
 {#if user.downloaded}
-    <div style="text-align:center">
+    <div class="center-text btn_pos">
         <button class="button_pressed">
             Resume Downloaded
         </button>
@@ -29,6 +29,10 @@
 {/if}
 
 <style>
+    .btn_pos {
+        position: relative;
+        top: 64px;
+    }
     /* taken from: https://www.w3schools.com/css/css3_buttons.asp */
     .button_unpressed {
         background-color: #a5a5a5; /* Grey */
