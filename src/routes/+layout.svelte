@@ -111,6 +111,7 @@
             transition: background-color 0.3s;
             font-size: 11pt;
             color: var(--font-color);
+            z-index: -1;
         }
         nav {
             margin-top: 16px;
@@ -130,6 +131,7 @@
             background-color: var(--theme-color);
             transition: background-color 0.3s;
             color: var(--font-color);
+            z-index: -1;
         }
         p {
             margin-top: 16px;

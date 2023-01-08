@@ -38,4 +38,19 @@
         background-color: var(--theme-color);
         transition: background-color 0.3s;
     }
+    @media screen and (max-width: 600px) {
+        .bg {
+            position: fixed;
+            bottom: 8%;
+            right: 0%;
+
+            display: block;
+            object-fit: cover;
+            height: 84%;
+            width: 100%;
+
+            background-color: var(--theme-color);
+            transition: background-color 0.3s;
+        }
+    }
 </style>
