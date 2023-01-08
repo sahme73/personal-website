@@ -62,7 +62,7 @@
 
             display: block;
             object-fit: cover;
-            height: 75%;
+            height: 80%;
             width: 100%;
         }
     }

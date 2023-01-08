@@ -88,8 +88,8 @@
         header {
             position: fixed;
             width: 100%;
-            height: 10%;
-            bottom: 80%;
+            height: 5%;
+            bottom: 85%;
             right: 0%;
             background-color: var(--theme-color);
             transition: background-color 0.3s;
@@ -104,7 +104,7 @@
     @media screen and (max-width: 600px) {
         nav {
             margin: 6px; /* fallback */
-            margin: 8%;
+            margin-top: 16px;
         }
     }
     p {
