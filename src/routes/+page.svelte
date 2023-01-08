@@ -16,9 +16,9 @@
 
     $: {
 		if (light)
-			src = '/images/homepage_day.png';
+			src = '/images/homepage_day_v2.png';
 		else if (dark)
-		  	src = '/images/homepage_night.png';
+		  	src = '/images/homepage_night_v2.png';
 	}
 </script>
 

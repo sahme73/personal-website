@@ -18,21 +18,25 @@
 	}
 
     $: color = '';
+    $: font_color = '';
     $: {
         if (light) {
             color = '#FFF8F0';
+            font_color = 'black';
             background.set(color);
         } else if (dark) {
-            color = '#575761';
+            color = '#202022';
+            font_color = 'white';
             background.set(color);
         } else {
             color = 'white';
+            font_color = 'black';
             background.set(color);
         }
     }
 </script>
 
-<header style="--theme-color: {color}">
+<header style="--theme-color: {color}; --font-color: {font_color};">
     <nav class="center-text">
         <a href="/">Home</a>
         <a href="/about">About</a>
@@ -45,17 +49,19 @@
 
 <slot></slot>
 
-<footer class="bottom" style="--theme-color: {color}">
+<footer class="bottom" style="--theme-color: {color}; --font-color: {font_color};">
     <p class="center-text">
         Connect: <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
          | <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer">GitHub</a>
+         | <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer">Email</a>
     </p>
 </footer>
 
 <style>
     :root {
         --temp0: #FFF8F0;
-        --temp1: #575761;
+        --temp1: #202022;
+        --theme-color0: {color};
     }
     .bottom {
         position: fixed;
@@ -65,6 +71,7 @@
         height: 5vh;
         background-color: var(--theme-color);
         transition: background-color 0.3s;
+        color: var(--font-color);
     }
     header {
         position: absolute;
@@ -75,6 +82,7 @@
         background-color: var(--theme-color);
         transition: background-color 0.3s;
         font-size: 2vmin;
+        color: var(--font-color);
     }
     nav {
         margin: 6px; /* fallback */
