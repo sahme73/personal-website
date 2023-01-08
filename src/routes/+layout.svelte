@@ -89,7 +89,7 @@
             position: fixed;
             width: 100%;
             height: 5%;
-            bottom: 85%;
+            bottom: 95%;
             right: 0%;
             background-color: var(--theme-color);
             transition: background-color 0.3s;
