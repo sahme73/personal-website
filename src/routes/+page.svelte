@@ -39,18 +39,19 @@
     .main-header {
         background-color: transparent;
         position: fixed;
-        bottom: 15%;
-        right: 15%;
+        bottom: 15vh;
+        right: 15vw;
         color: aliceblue;
+        font-size: 5vmin;
     }
     .main-image {
         position: fixed;
-        bottom: 5%;
-        right: 0;
+        bottom: 5vh;
+        right: 0vw;
 
         display: block;
         object-fit: cover;
-        height: 90%;
-        width: 100%;
+        height: 90vh;
+        width: 100vw;
     }
 </style>

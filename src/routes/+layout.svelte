@@ -1,7 +1,7 @@
 <script>
     export const prerender = true;
     
-    import { light_mode, dark_mode } from './store';
+    import { light_mode, dark_mode, background } from './store';
     let light = false;
     let dark = false;
 
@@ -21,10 +21,13 @@
     $: {
         if (light) {
             color = '#FFF8F0';
+            background.set(color);
         } else if (dark) {
             color = '#575761';
+            background.set(color);
         } else {
             color = 'white';
+            background.set(color);
         }
     }
 </script>
@@ -34,7 +37,7 @@
         <a href="/">Home</a>
         <a href="/about">About</a>
     
-        <button on:click={toggle}>
+        <button class="btn-scaling" on:click={toggle}>
             toggle
         </button>
     </nav>
@@ -50,26 +53,41 @@
 </footer>
 
 <style>
+    :root {
+        --temp0: #FFF8F0;
+        --temp1: #575761;
+    }
     .bottom {
         position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 5%;
+        bottom: 0vh;
+        right: 0vw;
+        width: 100vw;
+        height: 5vh;
         background-color: var(--theme-color);
+        transition: background-color 0.3s;
     }
     header {
         position: absolute;
-        width: 100%;
-        height: 5%;
-        bottom: 95%;
-        right: 0;
+        width: 100vw;
+        height: 5vh;
+        bottom: 95vh;
+        right: 0vw;
         background-color: var(--theme-color);
+        transition: background-color 0.3s;
+        font-size: 2vmin;
     }
     nav {
-        margin: 0;
+        margin: 6px; /* fallback */
+        margin: 0.8vmin;
     }
     p {
-        margin: 0;
+        margin: 6px; /* fallback */
+        margin: 0.8vmin;
+        font-size: 2vmin;
+    }
+    .btn-scaling {
+        height: 3vmin;
+        width: 8vmin;
+        font-size: 2vmin;
     }
 </style>
