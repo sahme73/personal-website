@@ -21,7 +21,7 @@
 </script>
 
 {#if user.loggedIn}
-	<div style="text-align:center">
+	<div class="center-text">
 		<button on:click={toggle}>
 			Log out
 		</button>
@@ -29,13 +29,13 @@
 {/if}
 
 {#if !user.loggedIn}
-	<div style="text-align:center">
+	<div class="center-text">
 		<button on:click={toggle}>
 			Log in
 		</button>
 	</div>
 {/if}
 
-<p style="text-align:center">
+<p class="center-text">
 	Your are currently {status}.
 </p>
