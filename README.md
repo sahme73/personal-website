@@ -15,7 +15,7 @@ A public website to showcase personal information (resume, blog posts, etc.), po
 
 ## Developing
 
-After cloning the project and installing dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+After cloning the project and installing dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server on a local host server:
 
 ```bash
 npm run dev
