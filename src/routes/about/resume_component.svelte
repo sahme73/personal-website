@@ -15,7 +15,7 @@
 {#if !user.downloaded}
     <div class="center-text btn_pos">
         <button class="button_unpressed" on:click={DownloadResume}>
-            <a href="./files/Safeer Ahmed 2023.pdf" download="SafeerAhmed2023">Download Resume</a>
+            <a href="./files/safeer-ahmed-resume.pdf" download="safeer-ahmed-resume">Download Resume</a>
         </button>
     </div>
 {/if}
