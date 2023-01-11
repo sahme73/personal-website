@@ -39,6 +39,7 @@
 <header style="--theme-color: {color}; --font-color: {font_color};">
     <nav class="center-text">
         <a href="/">Home</a>
+        <a href="/posts">Posts</a>
         <a href="/about">About</a>
     
         <button class="btn-scaling" on:click={toggle}>

@@ -5,7 +5,17 @@
     let name = 'safeer';
     let light = false;
     let dark = false;
-    let src = '';
+    let src = '/images/homepage_day_v2.png';
+
+    /*  To-do:
+     *  
+     *  A different rendering approach for the images
+     *  may result in better performance, especially
+     *  for slow connections. Strategy: render both
+     *  images to the page but only modify the visibility
+     *  of the top image. This will also yield better
+     *  SSG/prerendering performance.
+     */
 
     light_mode.subscribe(value => {
         light = value;
