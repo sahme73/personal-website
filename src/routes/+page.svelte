@@ -5,17 +5,6 @@
     let name = 'safeer';
     let light = false;
     let dark = false;
-    let src = '/images/homepage_day_v2.png';
-
-    /*  To-do:
-     *  
-     *  A different rendering approach for the images
-     *  may result in better performance, especially
-     *  for slow connections. Strategy: render both
-     *  images to the page but only modify the visibility
-     *  of the top image. This will also yield better
-     *  SSG/prerendering performance.
-     */
 
     light_mode.subscribe(value => {
         light = value;
@@ -23,23 +12,25 @@
     dark_mode.subscribe(value => {
         dark = value;
     });
-
-    $: {
-		if (light)
-			src = '/images/homepage_day_v2.png';
-		else if (dark)
-		  	src = '/images/homepage_night_v2.png';
-	}
 </script>
 
 <head>
     <title>safeer.tech | home</title>
 </head>
 
-<section class="stretch">
-    <img {src} class="main-image" alt="Chicago during the day/night depending on website theme chosen.">
-    <h1 class="center-text main-header">{name}.tech</h1>
-</section>
+{#if light}
+    <section class="stretch fade-in">
+        <img src="/images/homepage_day_v2.png" class="main-image" alt="Chicago during the day.">
+        <h1 class="center-text main-header">{name}.tech</h1>
+    </section>
+{/if}
+
+{#if dark}
+    <section class="stretch fade-in">
+        <img src="/images/homepage_night_v2.png" class="main-image" alt="Chicago during the night.">
+        <h1 class="center-text main-header">{name}.tech</h1>
+    </section>
+{/if}
 
 <style>
     .stretch {
@@ -63,6 +54,13 @@
         object-fit: cover;
         height: 90vh;
         width: 100vw;
+    }
+    .fade-in {
+        animation: fadeIn ease 0.3s;
+    }
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        100% {opacity: 1;}
     }
     @media screen and (max-width: 600px) {
         .main-image {
