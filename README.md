@@ -9,7 +9,7 @@
 
 # Personal Website
 
-A public website to showcase personal information (resume, blog posts, etc.), powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion. This website is currently supported on desktop browsers and mobile devices but needs some compatibility patches. The website template created in this repository is open for anyone to utilize.
+A public website to showcase personal information (resume, blog posts, etc.), powered by the [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte) template on the latest version of SvelteKit. Note: this website is in early development and needs ample time for completion. This website is currently supported on desktop browsers and mobile devices but needs some compatibility patches. The website template is open for anyone to utilize.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
