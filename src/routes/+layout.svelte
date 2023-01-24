@@ -1,4 +1,4 @@
-<script>
+<script lang=ts>
     export const prerender = true;
     
     import { light_mode, dark_mode, background } from './store';
