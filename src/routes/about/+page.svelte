@@ -61,6 +61,13 @@
     </p>
     <br/>
     <p>
+        Technical Skills:
+        <br> Programming Languages: C, C#, C++, HTML, Java, JavaScript, MATLAB, MIPS Assembly, Python, Verilog, VPython
+        <br> Frameworks/Tools: React.js, Next.js, Node.js, D3.js, SvelteKit, Unity, Unreal Engine 5, Git, Docker, Photoshop, Excel
+        <br> Spoken Languages: English, Urdu, Spanish
+    </p>
+    <br/>
+    <p>
         About me: 
         <br> I am currently pursuing a bachelor's degree in Computer Science + Philosophy. My passion lies in studying the deeper philosophy of different areas in Computer Science. Currently, the degree I am seeking covers philosophical topics regarding concepts such as artificial intelligence and intellectual property rights; however, it also equips me with strong skills to develop software as an engineer. I am open to internship opportunities or job positions as a software engineer to develop my skills within the industry.
     </p>
