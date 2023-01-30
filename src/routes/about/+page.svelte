@@ -123,5 +123,8 @@
             background-color: var(--theme-color);
             transition: background-color 0.3s;
         }
+        .front {
+            z-index: 500;
+        }
     }
 </style>
