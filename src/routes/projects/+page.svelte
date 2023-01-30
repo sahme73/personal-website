@@ -32,7 +32,15 @@
 </head>
 
 <section class="front" style="--font-color: {font_color};">
-    <a href="https://youtube-dataviz.vercel.app/" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">YouTube DataViz</a>
+    <h1>Projects</h1><br>
+    <a href="https://youtube-dataviz.vercel.app/" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">YouTube DataViz</a><br>
+    <a href="https://github.com/sahme73/bitcoin-analysis" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">Bitcoin Alpha Analysis</a><br>
+    <a href="https://github.com/sahme73/ForestForever" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">Forest Forever</a><br>
+    <a href="https://purdue0-my.sharepoint.com/:w:/g/personal/ahmed174_purdue_edu/EU_R3fGU4zhFjmeMfrgYNFMBsyWvczX2KTkAOrMe_7eAgw?rtime=fjmBznsC20g" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">Enzyme Model Algorithm</a><br>
+    <a href="https://purdue0-my.sharepoint.com/:w:/g/personal/ahmed174_purdue_edu/Ea535KiW1q1OqIm11OHPQq0BHA4h5IocG4AZbjAD0JCrtA?e=JzeSBi" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">
+        Martian Parachute Prototype</a><br>
+    <a href="https://purdue0-my.sharepoint.com/:w:/g/personal/aglime_purdue_edu/ETkklwmRliVOoIHkFLUv1egBySllI9T9biuEOiNmeSPeyA?e=D9W0Ua" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">
+        Remote Skateboard Blinkers Prototype</a><br>
 </section>
 
 <section class="stretch">
