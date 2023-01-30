@@ -1,12 +1,10 @@
 <script lang=ts>
     export const prerender = true;
 
-    import ResumeComponent from './resume_component.svelte';
-
-    import { light_mode, dark_mode, background } from '../store';
+    import { light_mode, dark_mode, background0 } from '../store';
 
     let color = 'black';
-    background.subscribe(value => {
+    background0.subscribe(value => {
         color = value;
     });
 
@@ -35,18 +33,19 @@
 
 <section class="stretch">
     <div class="bg" style="--theme-color: {color};" />
-    <ResumeComponent/>
 </section>
 
 <section class="front" style="--font-color: {font_color};">
+    <a href="./files/safeer-ahmed-resume.pdf" download="safeer-ahmed-resume" class="obj" style="color: {font_color};">Download Resume</a>
+    <br/>
     <h1>Bio</h1>
     <br/>
     <p>(img)</p>
     <br/>
-    <p>Name: Safeer Ahmed</p>
+    <p><b>Name:</b> Safeer Ahmed</p>
     <br/>
     <p>
-        Education:
+        <b>Education:</b>
         <br> University of Illinois at Urbana-Champaign
         <br> June 2021 - May 2023
         <br> Bachelor of Sciences in Liberal Arts & Sciences
@@ -61,23 +60,32 @@
     </p>
     <br/>
     <p>
-        Technical Skills:
-        <br> Programming Languages: C, C#, C++, HTML, Java, JavaScript, MATLAB, MIPS Assembly, Python, Verilog, VPython
-        <br> Frameworks/Tools: React.js, Next.js, Node.js, D3.js, SvelteKit, Unity, Unreal Engine 5, Git, Docker, Photoshop, Excel
-        <br> Spoken Languages: English, Urdu, Spanish
+        <b>Technical Skills:</b>
+        <br> <ins>Programming Languages:</ins> C, C#, C++, HTML, Java, JavaScript, MATLAB, MIPS Assembly, Python, Verilog, VPython
+        <br> <ins>Frameworks/Tools:</ins> React.js, Next.js, Node.js, D3.js, SvelteKit, Unity, Unreal Engine 5, Git, Docker, Photoshop, Excel
+        <br> <ins>Spoken Languages:</ins> English, Urdu, Spanish
     </p>
     <br/>
     <p>
-        About me: 
+        <b>About me:</b>
         <br> I am currently pursuing a bachelor's degree in Computer Science + Philosophy. My passion lies in studying the deeper philosophy of different areas in Computer Science. Currently, the degree I am seeking covers philosophical topics regarding concepts such as artificial intelligence and intellectual property rights; however, it also equips me with strong skills to develop software as an engineer. I am open to internship opportunities or job positions as a software engineer to develop my skills within the industry.
     </p>
+    <br/><br/><br/><br/><br/>
 </section>
 
 <style>
+    .obj {
+        text-decoration: none;
+        opacity: 1.0;
+        transition: 0.3s;
+    }
+    .obj:hover {
+        opacity: 0.6;
+    }
     .front {
         position: relative;
         top: 64px;
-        z-index: 1000;
+        z-index: 500;
 
         text-align: center;
         color: var(--font-color);
@@ -95,6 +103,7 @@
         object-fit: cover;
         height: 90vh;
         width: 100vw;
+        z-index: 500;
 
         background-color: var(--theme-color);
         transition: background-color 0.3s;
@@ -109,6 +118,7 @@
             object-fit: cover;
             height: 84%;
             width: 100%;
+            z-index: 500;
 
             background-color: var(--theme-color);
             transition: background-color 0.3s;

@@ -1,10 +1,10 @@
 <script lang=ts>
     export const prerender = true;
 
-    import { light_mode, dark_mode, background } from '../store';
+    import { light_mode, dark_mode, background0 } from '../store';
 
     let color = 'black';
-    background.subscribe(value => {
+    background0.subscribe(value => {
         color = value;
     });
 

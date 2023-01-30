@@ -32,6 +32,7 @@
     .btn_pos {
         position: relative;
         top: 64px;
+        z-index: 1;
     }
     /* taken from: https://www.w3schools.com/css/css3_buttons.asp */
     .button_unpressed {

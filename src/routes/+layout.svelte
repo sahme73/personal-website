@@ -1,7 +1,7 @@
 <script lang=ts>
     export const prerender = true;
     
-    import { light_mode, dark_mode, background } from './store';
+    import { light_mode, dark_mode, background, background0 } from './store';
     let light = false;
     let dark = false;
 
@@ -24,14 +24,17 @@
             color = '#FFF8F0';
             font_color = 'black';
             background.set(color);
+            background0.set('#ffffff');
         } else if (dark) {
             color = '#202022';
             font_color = 'white';
             background.set(color);
+            background0.set('#2f2f32');
         } else {
             color = 'white';
             font_color = 'black';
             background.set(color);
+            background0.set(color);
         }
     }
 </script>
@@ -61,7 +64,9 @@
 <style>
     :root {
         --temp0: #FFF8F0;
+        --temp00: #ffffff;
         --temp1: #202022;
+        --temp11: #2f2f32;
         --theme-color0: {color};
     }
     .menu {
@@ -81,6 +86,7 @@
         background-color: var(--theme-color);
         transition: background-color 0.3s;
         color: var(--font-color);
+        z-index: 1000;
     }
     header {
         position: fixed;
@@ -93,6 +99,7 @@
         font-size: 2vmin;
         color: var(--font-color);
         overflow: visible;
+        z-index: 1000;
     }
     nav {
         margin: 6px; /* fallback */

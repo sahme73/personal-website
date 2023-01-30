@@ -10,3 +10,4 @@ export const download_status = writable(false);
 export const light_mode = writable(true);
 export const dark_mode = writable(false);
 export const background = writable('black');
+export const background0 = writable('black');
