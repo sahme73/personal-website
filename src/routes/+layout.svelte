@@ -38,9 +38,9 @@
 
 <header style="--theme-color: {color}; --font-color: {font_color};">
     <nav class="center-text">
-        <a href="/">Home</a>
-        <a href="/posts">Posts</a>
-        <a href="/about">About</a>
+        <a href="/" class="menu" style="color: {font_color};">Home &emsp;</a>
+        <a href="/posts" class="menu" style="color: {font_color};">Posts &emsp;</a>
+        <a href="/about" class="menu" style="color: {font_color};">About &emsp;</a>
     
         <button class="btn-scaling" on:click={toggle}>
             toggle
@@ -52,9 +52,9 @@
 
 <footer class="bottom" style="--theme-color: {color}; --font-color: {font_color};">
     <p class="center-text">
-        Connect: <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-         | <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer">GitHub</a>
-         | <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer">Email</a>
+        <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">LinkedIn &emsp;</a>
+        <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">GitHub &emsp;</a>
+        <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">Email</a>
     </p>
 </footer>
 
@@ -63,6 +63,14 @@
         --temp0: #FFF8F0;
         --temp1: #202022;
         --theme-color0: {color};
+    }
+    .menu {
+        text-decoration: none;
+        opacity: 1.0;
+        transition: 0.3s;
+    }
+    .menu:hover {
+        opacity: 0.6;
     }
     .bottom {
         position: fixed;
