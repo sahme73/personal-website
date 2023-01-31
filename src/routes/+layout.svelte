@@ -45,9 +45,17 @@
         <a href="/projects" class="menu" style="color: {font_color};">Projects &emsp;</a>
         <a href="/about" class="menu" style="color: {font_color};">About &emsp;</a>
     
-        <button class="btn-scaling" on:click={toggle}>
-            toggle
-        </button>
+        {#if light}
+            <button class="btn-scaling menu" style="color: {font_color};" on:click={toggle}>
+                🌙
+            </button>
+        {/if}
+
+        {#if dark}
+            <button class="btn-scaling menu" style="color: {font_color};" on:click={toggle}>
+                🌞
+            </button>
+        {/if}
     </nav>
 </header>
 
@@ -55,6 +63,7 @@
 
 <footer class="bottom" style="--theme-color: {color}; --font-color: {font_color};">
     <p class="center-text">
+        💬 &emsp;
         <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">LinkedIn &emsp;</a>
         <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">GitHub &emsp;</a>
         <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">Email</a>
@@ -116,8 +125,15 @@
     }
     .btn-scaling {
         height: 3vmin;
-        width: 14vmin;
+        /* width: 14vmin; */
         font-size: 2vmin;
+
+        /* taken from: https://stackoverflow.com/questions/57547226/how-to-remove-background-from-button */
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
     }
     @media screen and (max-width: 600px) {
         header {
