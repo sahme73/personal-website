@@ -40,7 +40,9 @@
     <br/>
     <h1>Bio</h1>
     <br/>
-    <p>(img)</p>
+    <div class="flexbox">
+        <div class="avatar"></div>
+    </div>
     <br/>
     <p><b>Name:</b> Safeer Ahmed</p>
     <br/>
@@ -74,6 +76,31 @@
 </section>
 
 <style>
+    .flexbox {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        z-index: 500;
+    }
+    .avatar {
+        /* CSS taken from: https://stackoverflow.com/questions/26681059/create-a-circle-avatar-from-a-rectangle-image-keeping-proportions-and-just-using */
+
+        /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+        background-image: url('/images/me.jfif');
+        
+        /* make a square container */
+        width: 150px;
+        height: 150px;
+
+        /* fill the container, preserving aspect ratio, and cropping to fit */
+        background-size: cover;
+
+        /* center the image vertically and horizontally */
+        background-position: top center;
+
+        /* round the edges to a circle with border radius 1/2 container size */
+        border-radius: 50%;
+    }
     .obj {
         text-decoration: none;
         opacity: 1.0;

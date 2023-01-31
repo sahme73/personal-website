@@ -32,7 +32,7 @@
 </head>
 
 <section class="front" style="--font-color: {font_color};">
-    <h1>Projects</h1><br>
+    <h1>Projects</h1>
     <a href="https://youtube-dataviz.vercel.app/" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">YouTube DataViz</a><br>
     <a href="https://github.com/sahme73/bitcoin-analysis" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">Bitcoin Alpha Analysis</a><br>
     <a href="https://github.com/sahme73/ForestForever" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">Forest Forever</a><br>
@@ -41,6 +41,9 @@
         Martian Parachute Prototype</a><br>
     <a href="https://purdue0-my.sharepoint.com/:w:/g/personal/aglime_purdue_edu/ETkklwmRliVOoIHkFLUv1egBySllI9T9biuEOiNmeSPeyA?e=D9W0Ua" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">
         Remote Skateboard Blinkers Prototype</a><br>
+    <br>
+    <h1>Papers</h1>
+    <p class="obj" style="color: {font_color};">Coming soon...</p><br>
 </section>
 
 <section class="stretch">
@@ -60,7 +63,7 @@
     .front {
         position: relative;
         top: 64px;
-        z-index: 1000;
+        z-index: 501;
 
         text-align: center;
         color: var(--font-color);
@@ -78,6 +81,7 @@
         object-fit: cover;
         height: 90vh;
         width: 100vw;
+        z-index: 500;
 
         background-color: var(--theme-color);
         transition: background-color 0.3s;
@@ -92,9 +96,13 @@
             object-fit: cover;
             height: 84%;
             width: 100%;
+            z-index: 500;
 
             background-color: var(--theme-color);
             transition: background-color 0.3s;
+        }
+        .front {
+            z-index: 501;
         }
     }
 </style>

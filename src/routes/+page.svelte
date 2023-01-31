@@ -16,6 +16,8 @@
 
 <head>
     <title>safeer.tech | home</title>
+
+    <meta name = "safeer.tech" content="Safeer Ahmed's personal website.">
 </head>
 
 {#if light}

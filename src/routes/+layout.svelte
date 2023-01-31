@@ -92,6 +92,7 @@
         position: fixed;
         width: 100%;
         height: 5%;
+        top: 0;
         bottom: 95%;
         right: 0%;
         background-color: var(--theme-color);
@@ -100,6 +101,8 @@
         color: var(--font-color);
         overflow: visible;
         z-index: 1000;
+
+        transform: translate3d(0, 0, 0);
     }
     nav {
         margin: 6px; /* fallback */
