@@ -85,6 +85,7 @@
 
         background-color: var(--theme-color);
         transition: background-color 0.3s;
+        transform: translate3d(0, 0, 0);
     }
     @media screen and (max-width: 600px) {
         .bg {
