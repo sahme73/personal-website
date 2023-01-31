@@ -123,17 +123,18 @@
     }
     .bg {
         position: fixed;
-        bottom: 5vh;
+        bottom: 0vh;
         right: 0vw;
 
         display: block;
         object-fit: cover;
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         z-index: 500;
 
         background-color: var(--theme-color);
         transition: background-color 0.3s;
+        transform: translate3d(0, 0, 0);
     }
     @media screen and (max-width: 600px) {
         .bg {
