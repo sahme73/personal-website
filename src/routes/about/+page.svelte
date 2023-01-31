@@ -125,6 +125,8 @@
         position: fixed;
         bottom: 0vh;
         right: 0vw;
+        top: 0vh;
+        left: 0vw;
 
         display: block;
         object-fit: cover;
@@ -139,13 +141,15 @@
     @media screen and (max-width: 600px) {
         .bg {
             position: fixed;
-            bottom: 8%;
-            right: 0%;
+            bottom: 0vh;
+            right: 0vw;
+            top: 0vh;
+            left: 0vw;
 
             display: block;
             object-fit: cover;
-            height: 84%;
-            width: 100%;
+            height: 100vh;
+            width: 100vw;
             z-index: 500;
 
             background-color: var(--theme-color);
