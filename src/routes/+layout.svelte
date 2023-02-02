@@ -43,8 +43,20 @@
     <nav class="center-text">
         <a href="/" class="menu" style="color: {font_color};">Home &emsp;</a>
         <a href="/projects" class="menu" style="color: {font_color};">Projects &emsp;</a>
+        <a href="/papers" class="menu" style="color: {font_color};">Papers &emsp;</a>
+        <a href="/posts" class="menu" style="color: {font_color};">Posts &emsp;</a>
         <a href="/about" class="menu" style="color: {font_color};">About &emsp;</a>
-    
+    </nav>
+</header>
+
+<slot></slot>
+
+<footer class="bottom" style="--theme-color: {color}; --font-color: {font_color};">
+    <p class="center-text">
+        💬 &emsp;
+        <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">LinkedIn &emsp;</a>
+        <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">GitHub &emsp;</a>
+        <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">Email &emsp;</a>
         {#if light}
             <button class="btn-scaling menu" style="color: {font_color};" on:click={toggle}>
                 🌙
@@ -56,17 +68,6 @@
                 🌞
             </button>
         {/if}
-    </nav>
-</header>
-
-<slot></slot>
-
-<footer class="bottom" style="--theme-color: {color}; --font-color: {font_color};">
-    <p class="center-text">
-        💬 &emsp;
-        <a href="https://www.linkedin.com/in/safeer-ahmed-uiuc/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">LinkedIn &emsp;</a>
-        <a href="https://www.github.com/sahme73/" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">GitHub &emsp;</a>
-        <a href="mailto:sahme73@illinois.edu" target="_blank" rel="noopener noreferrer" class="menu" style="color: {font_color};">Email</a>
     </p>
 </footer>
 
