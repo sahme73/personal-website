@@ -28,7 +28,7 @@
 </script>
 
 <head>
-    <title>safeer.tech | posts</title>
+    <title>safeer.tech | papers</title>
 </head>
 
 <section class="front" style="--font-color: {font_color};">
@@ -39,6 +39,8 @@
     <a href="./files/paper-4.pdf" download="safeer-ahmed-paper-4" class="obj" style="color: {font_color};">Trog Argument's Flaw - 5 pages</a><br>
     <a href="./files/paper-5.pdf" download="safeer-ahmed-paper-5" class="obj" style="color: {font_color};">Short Essays on Minds and Machines - 11 pages</a><br>
     <a href="./files/paper-6.pdf" download="safeer-ahmed-paper-6" class="obj" style="color: {font_color};">Relationship of Nonself and Karma - 3 pages</a><br>
+    <a href="./files/paper-7.pdf" download="safeer-ahmed-paper-7" class="obj" style="color: {font_color};">Argument Against Language (Linguistics in Mathematics) - 6 pages</a><br>
+    <a href="./files/paper-8.pdf" download="safeer-ahmed-paper-8" class="obj" style="color: {font_color};">Human Isolation and Consequential Suffering - 14 pages</a><br>
     <p class="obj" style="color: {font_color};">More coming soon...</p>
 </section>
 

@@ -47,18 +47,29 @@
     <p><b>Name:</b> Safeer Ahmed</p>
     <br/>
     <p>
+        <b>Experience:</b>
+        <br> Mission Technologies, a division of HII
+        <br> Software Engineer · Full-time
+        <br> May 2023 - Current
+    </p>
+    <br/>
+    <p>
         <b>Education:</b>
+        <br> University of Illinois at Urbana-Champaign
+        <br> May 2023 - Dec 2025
+        <br> Master of Computer Science
+        <br>
         <br> University of Illinois at Urbana-Champaign
         <br> June 2021 - May 2023
         <br> Bachelor of Sciences in Liberal Arts & Sciences
         <br> Major in Computer Science + Philosophy
-        <br> GPA: 3.90/4.00
+        <br> GPA: 3.91/4.00
         <br>
         <br> Purdue University
         <br> August 2020 - May 2021
         <br> Bachelor of Science (Transferred)
         <br> Major in Computer Engineering
-        <br> GPA: 3.97/4.00
+        <br> GPA: 3.96/4.00
     </p>
     <br/>
     <p>
@@ -70,7 +81,10 @@
     <br/>
     <p>
         <b>About me:</b>
-        <br> I am currently pursuing a bachelor's degree in Computer Science + Philosophy. My passion lies in studying the deeper philosophy of different areas in Computer Science. Currently, the degree I am seeking covers philosophical topics regarding concepts such as artificial intelligence and intellectual property rights; however, it also equips me with strong skills to develop software as an engineer. I am open to internship opportunities or job positions as a software engineer to develop my skills within the industry.
+        <br> My passion lies in studying the deeper philosophy of different areas in computer science. 
+        <br> The degree I completed covered philosophical topics regarding concepts such as artificial
+        <br> intelligence and intellectual property rights; however, it also equipped me with strong 
+        <br> skills to develop software as an engineer.
     </p>
     <br/><br/><br/><br/><br/>
 </section>
