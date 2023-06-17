@@ -41,6 +41,7 @@
         Martian Parachute Prototype</a><br>
     <a href="https://purdue0-my.sharepoint.com/:w:/g/personal/aglime_purdue_edu/ETkklwmRliVOoIHkFLUv1egBySllI9T9biuEOiNmeSPeyA?e=D9W0Ua" target="_blank" rel="noopener noreferrer" class="obj" style="color: {font_color};">
         Remote Skateboard Blinkers Prototype</a><br>
+    <a href="/projects/project1" class="obj" style="color: {font_color};">Dashboard Project (New!)</a><br>
     <p class="obj" style="color: {font_color};">More coming soon...</p>
 </section>
 
